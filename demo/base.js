@@ -7,7 +7,7 @@
 window.start = function() {
   const kernelConfig = window.kernelConfig || {};
   const player = document.querySelector('#player');
-  const kernel = new window.ChimeeKernel(player, kernelConfig);
+  const kernel = new window.MangoKernel(player, kernelConfig);
   window.kernel = kernel;
 
   const seekController = document.createElement('div');

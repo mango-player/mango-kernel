@@ -14,8 +14,8 @@
   </header>
 	<video id="player" controls="controls" width="800" height="500" autoplay muted></video>
 </body>
-<script type="text/javascript" src="/node_modules/chimee-kernel-hls/lib/index.browser.js"></script>
-<script type="text/javascript" src="../../lib/index.dev.js"></script>
+<script type="text/javascript" src="/node_modules/mango-kernel-hls/lib/index.js"></script>
+<script type="text/javascript" src="/assets/index.js"></script>
 <script type="text/javascript" src="../base.js"></script>
 <script type="text/javascript">
 	// mp4 http://cdn.toxicjohann.com/lostStar.mp4
@@ -31,7 +31,7 @@
     box: 'hls',
     isLive: false,
     preset: {
-      hls: window.ChimeeKernelHls
+      hls: window.mangoKernelHls
     }
   };
   window.start();
