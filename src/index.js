@@ -4,7 +4,11 @@ import NativeVideoKernel from './native/index';
 import defaultConfig from './config';
 
 const LOG_TAG = 'mango-kernel';
-const kernelEvents = [ 'mediaInfo', 'heartbeat', 'error' ];
+const kernelEvents = [ 
+    'mediaInfo', 'heartbeat', 'error', 
+    'hlsSegmentLoaded', 'hlsBufferFull', 
+    'hlsBufferEmpty'
+];
 const boxSuffixMap = {
   flv: '.flv',
   hls: '.m3u8',
