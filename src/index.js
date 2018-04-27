@@ -5,9 +5,8 @@ import defaultConfig from './config';
 
 const LOG_TAG = 'mango-kernel';
 const kernelEvents = [ 
-    'mediaInfo', 'heartbeat', 'error', 
-    'hlsSegmentLoaded', 'hlsBufferFull', 
-    'hlsBufferEmpty'
+    'mediaInfo', 'heartbeat', 'error', 'hlsSegmentLoaded', 
+    'hlsBufferFull',  'hlsBufferEmpty'
 ];
 const boxSuffixMap = {
   flv: '.flv',
